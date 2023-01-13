@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form with validation</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--JAVASCRIPT-->
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <h1>Form with validation</h1>
+
+        <form action="" id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+
+            <label for="job">Work situation:</label>
+            <select name="job" id="job">
+                <option value="">Are you looking for a job?</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+            <button type="submit">Send</button>
+            
+        </form>
+
+    </body>
+</html>
